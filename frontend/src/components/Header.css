@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #26213e;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.logo .titulo {
+  color: #f8f5ff;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  background-color: #635c84;
+  border: none;
+  border-radius: 0.25rem;
+  color: #f8f5ff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #080b12;
+}
+
+.tab.active {
+  background-color: #080b12;
+}
