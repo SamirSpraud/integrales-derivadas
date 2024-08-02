@@ -1,0 +1,57 @@
+    /* src/components/Grafica.css */
+.grafica-container {
+    padding: 1rem;
+    background-color: #26213e;
+    color: #f8f5ff;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grafica-info {
+    margin-bottom: 1rem;
+  }
+  
+  .grafica-info p {
+    font-weight: bold;
+  }
+  
+  .grafica-info ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+  }
+  
+  .grafica-info li {
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #635c84;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #635c84;
+    color: #f8f5ff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #080b12;
+  }
+  
+  .grafica-error {
+    color: #f44336;
+    margin-bottom: 1rem;
+  }
+  
+  .grafica-chart {
+    margin-top: 1rem;
+  }
+  

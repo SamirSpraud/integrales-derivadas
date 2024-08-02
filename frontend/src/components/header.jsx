@@ -4,7 +4,6 @@ import './Header.css';
 const Header = ({ activeTab, onTabChange }) => {
   return (
     <header className="header">
-
       <nav className="tabs">
         <button
           className={`tab ${activeTab === 'integrales' ? 'active' : ''}`}
